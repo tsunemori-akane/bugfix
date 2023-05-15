@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["react", "vue"]
+}
